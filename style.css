@@ -1,0 +1,214 @@
+.bgcolor
+{
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    padding: 1.5rem;
+    transition: padding 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+    z-index: 2;
+}
+
+.bgcolor2
+{
+    margin-left: 0;
+    margin-right: 0;
+    background-color: black;
+    position: absolute;
+    padding: 0;
+    transition: padding 0.5s cubic-bezier(0.3, 1.4, 0.5, 0.9);
+}
+
+.fsize
+{
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+  transition-timing-function: linear;
+  border-radius: 3px;
+}
+
+
+.fsize:hover
+{
+    transition: 0.5s;
+    transition-timing-function: linear;
+    background: #17d0cf;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #4eb3bf), color-stop(51%, #17d0cf), color-stop(100%, #4eb3bf));
+    background: -webkit-gradient(linear, left top, right top, from(#01a6fd), color-stop(51%, #17d0cf), to(#01a6fd));
+    background: linear-gradient(to right, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
+    background-size: 200% auto;
+    -webkit-transition: background 1s ease-out;
+    transition: background 1s ease-out;
+    
+    
+}
+.imgpadd
+{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.fontst
+{
+    font-size: 8vw;
+}
+
+.fontst2
+{
+    font-size: 5vw;
+}
+
+.bton
+{
+    transition: 0.5s;
+    transition-timing-function: linear;
+    background: linear-gradient(to right, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
+}
+
+.bton:hover
+{
+    background: #17d0cf;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #4eb3bf), color-stop(51%, #17d0cf), color-stop(100%, #4eb3bf));
+    background: -webkit-gradient(linear, left top, right top, from(#01a6fd), color-stop(51%, #17d0cf), to(#01a6fd));
+    background: linear-gradient(to right, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
+    background-size: 200% auto;
+    transform: scale(1.2);
+    -webkit-transition: background 1s ease-out;
+    transition: background,transform 1s ease-in-out;
+    
+}
+
+
+
+.mtop
+{
+   margin-top: 0px;
+   padding: 50px 100px 50px 100px;
+   font-size: 20px;
+   text-align: center;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #17d0cf;
+    border-radius: 50%;
+    display: inline-block;
+   
+  }
+
+  .cborder
+  {
+       background: #17d0cf;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #4eb3bf), color-stop(51%, #17d0cf), color-stop(100%, #4eb3bf));
+    background: -webkit-gradient(linear, left top, right top, from(#01a6fd), color-stop(51%, #17d0cf), to(#01a6fd));
+    background: linear-gradient(to right, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
+    background-size: 200% auto;
+   
+    -webkit-transition: background 1s ease-out;
+    transition: background,transform 1s ease-in-out;
+      width: 100%;
+      color: white;
+      padding: 30px 30px 10px 30px;
+    
+  }
+
+  .fontchange
+  {
+      text-decoration: underline;
+  }
+
+  .btnlink
+  {
+      background-color: white;
+      color: #01a6fd;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: 0.5s;
+      transition-timing-function: linear;
+      border: 2px solid #01a6fd;
+      padding: 15px;
+      margin-left: 2vw;
+  }
+
+  
+
+  .btnlink:hover{
+    background: linear-gradient(to right, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
+    color: white;
+    text-decoration: none;
+  }
+.ainline
+{
+    display: inline;
+}
+
+.martop
+{
+    margin-top: 50px;
+}
+  @media only screen and (max-width: 575px)
+  {
+
+    .btnlink
+    {
+        background-color: white;
+        color: #01a6fd;
+        margin-top: 10px;
+        border: 2px solid #01a6fd;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        width:100%;
+    }
+    .martop
+{
+    margin-top: 6px;
+}
+
+  }
+
+  .sticky
+  {
+    position: absolute;
+    z-index: 1;
+  }
+
+  .bgcolor3
+  {
+    background: #17d0cf;
+    background: -webkit-gradient(left top, right top, color-stop(0%, #4eb3bf), color-stop(51%, #17d0cf), color-stop(100%, #4eb3bf));
+    background: -webkit-gradient(linear, left top, right top, from(#01a6fd), color-stop(51%, #17d0cf), to(#01a6fd));
+    background: linear-gradient(to right, #01a6fd 0%, #17d0cf 51%, #01a6fd 100%);
+    margin-right: 0;
+ 
+    -webkit-transition: background 1s ease-out;
+    transition: background,transform 1s ease-in-out;
+  }
+
+  .paddcon
+  {
+      padding: 250px 20px 250px 20px;
+
+  }
+
+
+  .fsize2   
+  {
+      font-size: 40px;
+      color: white;
+      font-weight: bold;
+  }
+
+  .bgcolor4
+{
+    background-color: white;
+    height: 100%;
+      
+   
+}
+
+
